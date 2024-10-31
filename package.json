@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d dist"
+    "build": "babel src -d dist",
+    "start": "babel src -d dist && node dist/vdom.js"
   },
   "keywords": [],
   "author": "",
